@@ -32,7 +32,7 @@ def BarcodeReader(image):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    image = "C:/Users/sahil/Desktop/pyzbar/try.jpeg"
+    image = "/try.jpeg"
     BarcodeReader(image)
 
 
